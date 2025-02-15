@@ -1,4 +1,4 @@
-# ai-code-review
+# AI-CODE-REVIEW
 
 # Backend
 - npm i express
