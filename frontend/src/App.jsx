@@ -23,7 +23,7 @@ function App() {
   },[]);
 
   async function reviewCode() {
-    const response = await axios.post(`http://localhost:5000/ai/get-review`,{code})
+    const response = await axios.post(`https://ai-code-review-backend-in5b.onrender.com/ai/get-review`,{code})
     //console.log(response.data);
     setReview(response.data);
   }
